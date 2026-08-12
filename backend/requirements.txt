@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary; sys_platform != 'win32'
+celery
+redis
+httpx
+pytest
+python-dotenv
+pydantic
+pydantic-settings
+ruff

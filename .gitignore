@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# SQLite databases
+*.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (frontend has its own .gitignore, but belt-and-suspenders)
+node_modules/
+
+# Docker
+docker-compose.override.yml
